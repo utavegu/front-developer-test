@@ -1,0 +1,33 @@
+.blog__article {
+  background-color: $main-color-gray;
+  position: relative;
+  margin-bottom: 179px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -100px;
+    right: 30px;
+
+    width: 614px;
+    height: 600px;
+
+    background-image: url("../img/chair.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+
+.blog__article-heading {
+  width: 523px;
+  min-height: 261px;
+  
+  a {
+    color: #272727;
+    font-family: Graphik;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+  }
+}
