@@ -1,3 +1,32 @@
-.footer {
+.contacts {
+  background-color: #202020;
+}
 
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contacts__item {
+  p {
+    color: #fff;
+  }
+  p a {
+    color: #fff;
+  }
+}
+
+.contacts__heading {
+  color: #a8ca1e;
+  border-bottom: 1px solid;
+}
+
+
+
+
+
+
+.copyright {
+  background-color: #151515;
 }
