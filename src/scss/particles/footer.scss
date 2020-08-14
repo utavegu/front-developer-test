@@ -1,11 +1,17 @@
 .contacts {
-  background-color: #202020;
+  background-color: $footer-color-contacts;
+}
+
+.contacts__logo {
+  width: 128px;
+  height: 54px;
 }
 
 .contacts__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 
 .contacts__item {
@@ -22,11 +28,8 @@
   border-bottom: 1px solid;
 }
 
-
-
-
-
-
 .copyright {
-  background-color: #151515;
+  background-color: $footer-color-copyright;
+  color: #a1a1a1;
+  text-align: center;
 }

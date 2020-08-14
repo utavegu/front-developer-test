@@ -40,3 +40,20 @@ img {
   width: 1372px;
   margin: auto;
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+  border-radius: 3px;
+  min-width: 120px;
+  font: inherit;
+  cursor: pointer;
+
+    /*Ховеры, активы...*/
+}

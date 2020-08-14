@@ -1,18 +1,27 @@
-@import "~bootstrap/scss/bootstrap-grid";
-@import "~bootstrap/scss/bootstrap-reboot";
-@import "~animate.css";
+// @import "~bootstrap/scss/bootstrap-grid";
+// @import "~bootstrap/scss/bootstrap-reboot";
+// @import "~animate.css";
 
-@import "./variables.scss";
-@import "./fonts.scss";
-@import "./typography.scss";
-@import "./styles.scss";
-@import "./layout.scss";
-@import "./buttons.scss";
-@import "./helper.scss";
+// @import "./variables.scss";
+// @import "./fonts.scss";
+// @import "./typography.scss";
+// @import "./styles.scss";
+// @import "./layout.scss";
+// @import "./buttons.scss";
+// @import "./helper.scss";
 
 @import "./normalize.scss";
+
+@import "./variables.scss";
+@import "./extends.scss";
 @import "./global.scss";
 
 @import "./particles/header.scss";
+
+@import "./particles/about.scss";
+@import "./particles/blog.scss";
+@import "./particles/client-feedback.scss";
+@import "./particles/team.scss";
+
 @import "./particles/footer.scss";
 

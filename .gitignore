@@ -3,3 +3,4 @@
 .idea
 default.profraw
 package-lock.json
+/src/scss/forgitignore
