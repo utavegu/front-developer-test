@@ -3,3 +3,10 @@
   flex-wrap: wrap;
   flex-shrink: 0;
 }
+
+%pseudo-element {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
