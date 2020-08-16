@@ -43,15 +43,14 @@ img {
 
 .button {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 20px 20px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
   text-transform: uppercase;
-  background-color: #000000;
-  border: none;
-  border-radius: 3px;
-  min-width: 120px;
+  color: $main-color-white;
+  border: 2px solid #fff;
+  border-radius: 33px;
+  min-width: 218px;
   font: inherit;
   cursor: pointer;
 

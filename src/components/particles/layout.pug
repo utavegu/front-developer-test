@@ -1,3 +1,22 @@
+mixin card (employeeName, employeePosition)
+  li.team__item
+    img.team__item-photo(src="./img/andy_photo.jpg", alt="Иванов Андрей", width="232", height="231" )
+    div.team__about
+      cite
+        span.team__item-name= employeeName
+        br
+        span.team__item-position= employeePosition
+      address
+        a.team__item-phone(href="tel:+7(343)123-45-67") +7 (343) 123-45-67 (вн. 102)#[br]
+        a.team__item-phone(href="tel:+7(343)123-45-67") +7 (343) 123-45-67 (вн. 102)#[br]
+        a.team__item-letter(href="mailto:andreyivanov@youremail.com") Написать письмо
+
+mixin feedback (clientName, clientExp, clientFeedback)
+  div.client-feedback__item
+    span.client-feedback__experience= clientExp
+    p.client-feedback__feedback= clientFeedback
+    cite.client-feedback__client-name= clientName
+
 doctype html
 html(lang="ru")
   head

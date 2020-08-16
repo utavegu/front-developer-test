@@ -1,0 +1,93 @@
+.client-feedback {
+  background-color: $main-color-gray;
+
+  .main-wrapper {
+    text-align: center;
+    position: relative;
+  }
+}
+
+.client-feedback__heading {
+  padding-top: 122px;
+  margin-bottom: 20px;
+  color: #2d2c2c;
+  font-size: 40px;
+  line-height: 41px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+}
+
+.client-feedback__item {
+  position: relative;
+
+  &::after {
+    @extend %pseudo-element;
+    top: 100px;
+    left: 49.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/client-photo.png");
+  }
+}
+
+.client-feedback__experience {
+  color: #626262;
+  font-size: 18px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  margin-left: -15px;
+}
+
+.client-feedback__feedback {
+  margin: auto;
+  margin-top: 138px;
+  margin-bottom: 48px;
+  width: 935px;
+
+  color: #282828;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+.client-feedback__client-name {
+  color: #2d2c2c;
+  font-size: 18px;
+  line-height: 38px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 80px;
+  display: inline-block;
+}
+
+.client-feedback__slider-arrow {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #141414;
+  bottom: 30%;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #da3038;
+  }
+
+  &--left {
+    left: 0;
+    background-image: url("../img/chevron_left.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  &--right {
+    right: 0;
+    background-image: url("../img/chevron_right.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
