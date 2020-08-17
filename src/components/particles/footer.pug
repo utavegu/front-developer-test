@@ -1,28 +1,27 @@
 section.contacts
   .main-wrapper
     h2.visually-hidden Контакты
-    address.contacts__list
+    div.contacts__list
 
       img.contacts__logo(src="./img/logo.png", alt="Miture Architecture", width="128", height="54")
 
       div.contacts__item.contacts__item--call
         h3.contacts__heading Звоните
-        p
-          //- Надо погуглить работает ли ещё этот протокол
+        address
           a.contacts__phone(href="tel:+7(343)255-655") Телефон: +7 (343) 255-655#[br]
           a.contacts__fax Факс: +7 (343) 255-655
 
       div.contacts__item.contacts__item--write
         h3.contacts__heading Пишите
-        p
+        address
           a.contacts__mail.contacts__mail--support(href="mailto:support@youremail.com") support@youremail.com#[br]
           a.contacts__mail.contacts__mail--manager(href="mailto:projectmanager@youremail.com") projectmanager@youremail.com
 
       div.contacts__item.contacts__item--come
         h3.contacts__heading Приезжайте
-        p
+        address
           span.contacts__street г. Екатеринбург, ул. Циолковского 27#[br]
           span.contacts__postal-index Екатеринбург 669987
 
-section.copyright
+div.copyright
   span ООО "Miture Developvent" &copy; 2020

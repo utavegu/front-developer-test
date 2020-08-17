@@ -15,11 +15,11 @@ block contentBlock
     h2.visually-hidden О нас
     .main-wrapper
       //- Считаю данное изображение контентным, так как на нём есть пример работы, а значит он может повлиять на выбор клиента. Но честно говоря я вообще не особо понял смысл этой секции. "О компании"-ли она или часть "блога"? Если часть блога - тогда, конечно, изображение декоративное, а "Эмоциональный дизайн интерьера" - заголовок
-      img.about-photo(src="./img/about-photo.jpg", alt="Пример дизайна интерьера", width="560", height="579")
+      img.about-photo(src="./img/about-photo.jpg", srcset="./img/about-photo@2x.jpg 2x", alt="Пример дизайна интерьера", width="560", height="579")
       div.right-column
         b.about__heading Эмоциональный <br> дизайн интерьера
         p.about__description Elements studio – команда амбициозных молодых профессиональных дизайнеров с тонким чувством стиля. Cоздаем современные интерьеры в которых удобно жить.
-        a.about__button.button(href="#") Подробнее 
+        a.about__button.button(tabindex="0") Подробнее 
 
   section.blog
     .main-wrapper

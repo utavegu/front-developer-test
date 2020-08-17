@@ -29,6 +29,9 @@
     width: 80px;
     height: 80px;
     background-image: url("../img/client-photo.png");
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/client-photo@2x.png");
+    }
   }
 }
 

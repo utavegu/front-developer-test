@@ -55,5 +55,17 @@ img {
   min-width: 218px;
   cursor: pointer;
 
-    /*Ховеры, активы...*/
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 1;
+    transform: translateY(1px);
+    filter: saturate(150%);
+  }
+
+  &:focus {
+    outline: 1px dotted black;
+  }
 }

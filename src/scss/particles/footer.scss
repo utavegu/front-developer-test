@@ -1,7 +1,7 @@
 .contacts {
   background-color: $footer-color-contacts;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 130px;
 }
 
 .contacts__logo {
@@ -19,7 +19,7 @@
 .contacts__item {
   position: relative;
 
-  p {
+  address {
     color: $main-color-white;
     font-family: Gerbera, Arial, sans-serif;
     font-size: 14px;
@@ -28,7 +28,7 @@
     font-style: normal;
   }
 
-  p a {
+  address a {
     color: $main-color-white;
   }
 
