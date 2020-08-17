@@ -14,6 +14,9 @@
     width: 614px;
     height: 600px;
     background-image: url("../img/chair.png");
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/chair@2x.png");
+    }
   }
 }
 
